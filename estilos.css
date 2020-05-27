@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    font-size: 16px;
+    background: white;
+
+}
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url(imagenes/FNT.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: #ffffff;
+    text-align: center;
+}
+.textos{
+    margin-top: 152px;
+}
+.subtitulo{
+    font-size: 30px;
+    
+}
+.sesgoabajo{
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 34vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+/*text*/
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+
+}
+.tittle{
+    text-align: center;
+}
+.text{
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: black;
+}
+/*Atributos de la tabla*/
+.table{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+    table-layout: fixed;
+    font-size: 16px;
+}
+.table caption{
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 8px 0px;
+}
+.container{
+    width: 100%;
+    max-width: 700px;
+    margin: auto;
+}
+.table thead,th{
+    text-transform: uppercase;
+    background: #ddd;
+}
+.table td,.table th{
+    padding: 5px 10px;
+    text-align: center;
+}
+.table th{
+    background-color: rgb(180, 179, 179);
+}
+.table td{
+    background-color: #ddd;
+}
+footer{
+    text-align: center;
+}

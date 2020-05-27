@@ -1,0 +1,113 @@
+@media screen and (max-width:414px){
+    .subtitulo{
+        font-size: 22px;
+    }
+    .i{
+        width: 240px;
+        height: 90px;
+    }
+    .text{
+        font-size: 18px;
+    }
+    .tittle{
+        font-size: 22px;
+    }
+    .m{
+        width: 170px;
+        height: 90px;
+    }
+    /*tabla*/
+    .table{
+        border: 0px;
+    }
+    .table caption{
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .table th,.table td{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:375px){
+    .subtitulo{
+        font-size: 20px;
+    }
+    .i{
+        width: 220px;
+        height: 90px;
+    }
+    .text{
+        font-size: 16px;
+    }
+    .tittle{
+        font-size: 20px;
+    }
+    .m{
+        width: 150px;
+        height: 70px;
+    }
+    /*tabla*/
+    .table{
+        border: 0px;
+    }
+    .table caption{
+        font-size: 18px;
+        padding-top: 25px;
+    }
+    .table th,.table td{
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:360px){
+    .subtitulo{
+        font-size: 18px;
+    }
+    .i{
+        width: 200px;
+        height: 70px;
+    }
+    .text{
+        font-size: 13px;
+    }
+    .tittle{
+        font-size: 18px;
+    }
+    .m{
+        width: 100px;
+        height: 50px;
+    }
+    /*tabla*/
+    .table{
+        border: 0px;
+    }
+    .table caption{
+        font-size: 16px;
+        padding-top: 25px;
+    }
+    .table thead{
+        display: none;
+    }
+    .table tr{
+        margin-bottom: 8px;
+        border-bottom: 30px solid #ddd;
+        display: block;
+    }
+    .table th,.table td{
+        font-size: 10px;
+    }
+    .table td{
+        display: block;
+        border-bottom: 8px solid #ddd;
+        text-align:right;
+    }
+    .table td:last-child{
+        border-bottom: 0px;
+    }
+    .table td::before{
+        content: attr(data-label);
+        font-weight: bold;
+        text-transform: uppercase;
+        float: left;
+    }
+    }
+}
